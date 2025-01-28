@@ -2,7 +2,7 @@
 
 Name: pygobject2
 Version: 2.28.7
-Release: 4%{?dist}
+Release: 5%{?dist}
 License: LGPLv2+, MIT
 Summary: Python 2 bindings for GObject 
 URL: http://www.pygtk.org/
@@ -109,6 +109,9 @@ done
 %{_datadir}/pygobject/xsl
 
 %changelog
+* Thu Jan 09 2025 Josef Ridky <jridky@redhat.com> - 2.28.7-5
+- bump spec to fix NVR
+
 * Mon Aug 13 2018 Josef Ridky <jridky@redhat.com> - 2.28.7-4
 - update python macro to python2
 
